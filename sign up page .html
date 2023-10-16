@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #body
+        {
+            display:flex;
+            align-items: center;
+            padding-left: 500px;
+            padding-top: 250px;
+        }
+
+        #field
+        {
+            width: 400px;
+            background-color: azure;
+            border-radius: 20px;
+            border-width: 3px;
+            padding-left: 70px;
+            
+        }
+        #sub
+        {
+            padding-left: 160px;
+        }
+        h2
+        {
+            padding-left: 140px;
+        }
+    </style>
+</head>
+<body id="body">
+    <fieldset id="field">
+         
+    <h2>SIGN UP</h2>
+    Enter Name&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;<input type="text" placeholder="Name"> 
+<br><br>
+    Enter Email&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;<input type="email"placeholder="Email">
+<br><br> 
+    Enter Number&nbsp;:&nbsp;<input type="number" placeholder="Number" >
+<br><br>
+<label> 
+    Select Gender&nbsp;&nbsp;:&nbsp;
+     Male<input type="radio">
+    Female<input type="radio">
+    Others<input type="radio"> 
+</label>
+    <br><br>   
+<label>  
+    How did you hear about this ?<br>&nbsp;&nbsp;
+    Linkedin <input type="checkbox">
+    Friends<input type="checkbox">
+    Job portell<input type="checkbox">
+    Others<input type="checkbox">
+</label>
+<br><br>   
+        <label>Select State</label>
+    <select>
+     <option>Mumbai</option>
+     <option>Puni</option>
+     <option>Ahmedabad</option>
+    </select>
+<br><br>
+     <label>Enter the state :</label>
+     <input list = "state"></input>
+    <datalist id = "state">
+     <option>Gujarat</option>
+     <option>Maharashtra</option>
+     <option>Karnataka</option>
+    </datalist>
+    <br><br>
+     
+    <lable id="sub"> <input type="submit" placeholder="save"></lable>
+
+     
+      </fieldset>
+    
+</body>
+</html>
